@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'rock_saltregular';
+    src: url('./font/rocksalt1-webfont.woff2') format('woff2'),
+         url('./fonts/rocksalt1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -23,4 +31,12 @@ img {
 
 p {
     padding: 10px;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+} 
+
+h1 {
+    font-family: rock_saltregular, 'Bradley Hand', cursive;
 }
