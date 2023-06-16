@@ -58,17 +58,3 @@ footer {
     border: 1px solid #000;
     text-align: center;
 }
-
-@font-face {
-    font-family: 'rock_saltregular';
-    src: url('./font/rocksalt1-webfont.woff2') format('woff2'),
-         url('./fonts/rocksalt1-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-nav {
-    background-color: steelblue;
-    background-color: rgb(115, 144, 168);
-    padding: 10px;
-}
