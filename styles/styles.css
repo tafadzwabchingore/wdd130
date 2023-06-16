@@ -1,0 +1,74 @@
+main {
+    max-width: 840px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: rgba(244, 135, 62, 0.8);
+}
+
+nav {
+    background-color: rgb(115, 189, 250);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: rgba(244, 126, 62, 0.9);
+    font-family: cursive, 'Times New Roman', serif;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 1px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 0;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    margin: 1em;
+    border: 1px solid steelblue;
+    padding: 1em;
+    background-color: #eee;
+    color: rgba(244, 126, 62, 0.8);
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'rock_saltregular';
+    src: url('./font/rocksalt1-webfont.woff2') format('woff2'),
+         url('./fonts/rocksalt1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+nav {
+    background-color: steelblue;
+    background-color: rgb(115, 144, 168);
+    padding: 10px;
+}
