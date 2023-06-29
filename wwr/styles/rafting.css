@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #be4d06;
+    --secondary-color: #F5F5F5;
+    --accent1-color: #A3C2E0;
+    --accent2-color: #ED5D31;
+
+    --heading-font: Lobster, serif;
+    --paragraph-font: Roboto, serif;
+
+    --nav-background-color: #F5F5F5;
+    --nav-link-color: #40c5c9;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #40c5c9;
+}
+
+h1 {
+    font-family: Lobster, serif;
+    color: var(--primary-color);
+    position: absolute;
+    right: 180px;
+    top: 350px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 100000px;
+    padding: 20px;
+}
+
+p {
+    padding: 25px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+	height: auto;
+}
+
+article {
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    width: 300px;
+    color: #A3C2E0;
+    text-align: left;
+}
+
+article img {
+    float: right;
+    width: 30px;
+    height: auto;
+    padding: 1px;
+}
+
+section img{
+    max-width: 300px;
+    text-align: right;
+}
+
+section {
+    max-width: 500px;
+}
