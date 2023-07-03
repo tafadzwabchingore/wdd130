@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 
 :root {
-    --primary-color: #be4d06;
+    --primary-color: #dc732d;
     --secondary-color: #F5F5F5;
     --accent1-color: #A3C2E0;
-    --accent2-color: #ED5D31;
+    --accent2-color: black;
 
     --heading-font: Lobster, serif;
     --paragraph-font: Roboto, serif;
@@ -20,7 +20,7 @@ h1 {
     color: var(--primary-color);
     position: absolute;
     right: 180px;
-    top: 350px;
+    top: 330px;
 }
 
 h2 {
@@ -35,7 +35,7 @@ body {
 }
 
 p {
-    padding: 25px;
+    padding: 1px;
 }
 
 .hero img {
@@ -49,8 +49,9 @@ article {
     top: 400px;
     right: 100px;
     width: 300px;
-    color: #A3C2E0;
+    color: black;
     text-align: left;
+    background-color: #aff3f5;
 }
 
 article img {
@@ -60,11 +61,60 @@ article img {
     padding: 1px;
 }
 
-section img{
-    max-width: 300px;
+figure {
+    max-width: 200px;
+    text-decoration: solid;
+
+}
+
+.grid {
+    display: grid;
+    align-items: flex-start;
+}
+
+nav {
     text-align: right;
 }
 
-section {
-    max-width: 500px;
+.navigation {
+        display: flex;
+        list-style: none;
+}
+
+.navigation a {
+	display: block;
+	color: #390526;
+	padding: 70px 79px;
+	text-decoration: none;
+    background-color: rgb(241, 240, 240);
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 160px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    float: right;
 }
