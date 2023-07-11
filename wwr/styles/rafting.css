@@ -84,7 +84,8 @@ nav {
 .navigation a {
 	display: block;
 	color: #390526;
-	padding: 70px 79px;
+    padding: 75px;
+    padding-right: 55px;
 	text-decoration: none;
     background-color: rgb(241, 240, 240);
 }
