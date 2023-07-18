@@ -17,11 +17,14 @@
 h1 {
     font-family: 'Times New Roman', serif;
     text-align: center;
+    font-size: 5rem;
 }
 
 h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    text-align: center;
+    font-size: 3rem;
 }
 
 body {
@@ -32,6 +35,7 @@ body {
 
 p {
     padding: 1px;
+    font-size: 2rem;
 }
 
 nav {
@@ -48,10 +52,15 @@ nav {
 .navigation a {
 	display: block;
 	color: rgb(36, 2, 36);
-	padding: 75px;
-    padding-right: 55px;
+	padding: 46px;
+    padding-right: 75px;
 	text-decoration: none;
     background-color: rgb(241, 240, 240);
+    font-size: 2rem;
+}
+
+.navigation a:hover {
+    color: crimson;
 }
 
 header {
